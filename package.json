@@ -1,0 +1,21 @@
+{
+  "name": "smart-ledger",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "스마트 가계부 - 순수 React로 만든 개인 수입/지출 관리 앱",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}
