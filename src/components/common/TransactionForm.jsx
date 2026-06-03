@@ -55,9 +55,9 @@ function TransactionForm({ onSubmit }) {
     <form className="form" onSubmit={handleSubmit}>
       <h3 className="form__title">새 거래 추가</h3>
 
-      {/* 수입/지출 토글 */}
+      {/* 수입/지출 토글 (기본값인 지출을 왼쪽에 배치) */}
       <div className="form__toggle">
-        {Object.values(TYPES).map((type) => (
+        {[TYPES.EXPENSE, TYPES.INCOME].map((type) => (
           <button
             type="button"
             key={type}
